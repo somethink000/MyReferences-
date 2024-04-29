@@ -1,10 +1,15 @@
 #### Какие есть связи и как они реализуются в Laravel?
 
 > One to One
+
 > One to Many
+
 > One to Many (Inverse) / Belongs To
+
 > Has One of Many
+
 > Has One Through
+
 > Has Many Through
 
 #### Что такое полиморфные связи, как они работают?
