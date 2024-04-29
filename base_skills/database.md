@@ -42,9 +42,7 @@
 > INNER OUTER LEFT RIGHT джоины и.т.д определяют какая из таблиц будет охватываться например в условиях не совпадения ключа
 
 <p align="center">
-
     <img width="1000px" src="/assets/joins1.png" alt="qr"/>
-
 </p>
 
 #### Агрегатные функции SQL
@@ -142,9 +140,7 @@
 #### Какие типы данных есть в MySQL
 
 <p align="center">
-
     <img width="1000px" src="/assets/aXAXX.png" alt="qr"/>
-
 </p>
 
 #### Индексация
