@@ -134,16 +134,21 @@
 
 > Представляет собой подготовленные запросы. Для защиты от sql инекций также лучше использовть различные кодирования параметров
 
+
 >$placeholders = implode(',', array_fill(0, count($values), '?')); 
+
 >$sql = "SELECT * FROM my_table WHERE id IN ($placeholders)";
 
 >$stmt = $mysqli->prepare($sql);
 
 >// Assuming all values are integers
+
 >$types = str_repeat('i', count($values)); // 'iii' for three integers
+
 >$stmt->bind_param($types, ...$values);
 
 >$stmt->execute();
+
 >$results = $stmt->get_result();
 
 
